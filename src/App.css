@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: #f8fafc;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1; /* 🔑 THIS pushes footer to bottom */
+}
